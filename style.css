@@ -12,6 +12,10 @@ body{
     
 }
 
+.word-color{
+    color: rgb(238, 152, 71);
+}
+
 .left-side{
     width: 50%;
 }
@@ -23,10 +27,6 @@ body{
     padding-top: 0;
     padding-bottom: 0;
 }
-
-/* .header{
-    border-left: 1px solid black;
-} */
 
 .right-side{
     width: 50%;
@@ -48,4 +48,50 @@ body{
 
 .sub-section img{
     width: 400px;
+}
+
+#mission-sec-header{
+    font-size: 45px;
+    text-align: center;
+}
+
+.mission-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 7%;
+}
+
+.sub-mission-card{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.mission-section img{
+    width: 110px;
+}
+
+#card-bg-color-1{
+    background-color:rgb(219, 250, 242) ;
+}
+
+#card-bg-color-2{
+    background-color:#fcf0f0 ;
+}
+
+#card-bg-color-3{
+    background-color:#f0e4cd ;
+}
+
+/* .third-section{
+    display: flex;
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-left: 10px;
+} */
+
+#third-section-img{
+    width: 300px;
 }
